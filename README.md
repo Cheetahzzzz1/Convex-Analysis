@@ -6,3 +6,4 @@ This assignment provides a computational verification of the convexity of the se
 
 # Problem Statement
 
+![Screenshot 2025-03-03 164037](https://github.com/user-attachments/assets/88bd864f-5a45-4535-8f61-90f871d7c3ca)
