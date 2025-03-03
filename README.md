@@ -13,3 +13,5 @@ The problem statement states that the matrix
              C = λA + (1-λ)B
 
 must also be a PSD.
+
+# Methodology
