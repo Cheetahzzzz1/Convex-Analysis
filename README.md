@@ -15,3 +15,21 @@ The problem statement states that the matrix
 must also be a PSD.
 
 # Methodology
+
+(a) <ins> Definition of Positive Semidefiniteness </ins>
+
+A symmetric matrix M is positive semidefinite (PSD) if all it's eigenvalues are nonnegative:
+
+$M \succeq 0 \iff \forall x \in \mathbb{R}^n, x^T M x \geq 0.$
+
+(b) <ins> Checking Convexity </ins>
+
+To verify convexity, we:
+
+1. Generate two random PSD matrices A and B.
+
+2. Compute their convex combination C.
+
+3. Check if C is PSD by verifying that all its eigenvalues are nonnegative.
+
+(c) <ins> Computational Verification </ins>
