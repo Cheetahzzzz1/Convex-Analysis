@@ -48,3 +48,4 @@ The computational approach involves:
 
 3. Checking whether the resulting matrix is PSD.
 
+# Results
