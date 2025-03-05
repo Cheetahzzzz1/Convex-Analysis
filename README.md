@@ -33,3 +33,7 @@ To verify convexity, we:
 3. Check if C is PSD by verifying that all its eigenvalues are nonnegative.
 
 (c) <ins> Computational Verification </ins>
+
+1. We use NumPy to generate symmetric PSD matrices by computing A = MM^T for a random matrix M.
+
+2. The eigenvalues of C are computed using numpy.linalg.eigvalsh to verify its positive semidefiniteness.
